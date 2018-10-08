@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adolfo.idealweight.ContenidoAlimentos">
+
+    <ImageView
+        android:id="@+id/ImgAlimento"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/imagenb"
+        android:layout_below="@+id/NameDesayuno1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/NameDesayuno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Alimento"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/DescDesayuno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        android:textSize="25dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/Bconsumir"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyleselector"
+        android:id="@+id/Bconsumir"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Consumir"
+        android:textSize="20sp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/ImgAlimento"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

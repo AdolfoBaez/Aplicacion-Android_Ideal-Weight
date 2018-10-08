@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d7d7d7"
+    android:paddingTop="20dp"
+    tools:context="com.example.adolfo.idealweight.ActionPantalla">
+
+    <TextView
+        android:id="@+id/dLabel"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#206757"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/mLabel"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="July"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#206757"
+        android:layout_marginRight="-38dp"
+        android:layout_marginTop="-71dp"
+        />
+
+    <TextView
+        android:id="@+id/yLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <ImageButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/imagenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/button_i" />
+
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="¡Bienvenido Usuario!"
+       android:textSize="25dp"
+       android:layout_gravity="center"
+       android:background="#ffffff"
+       android:textColor="#206757"
+       />
+
+</LinearLayout>

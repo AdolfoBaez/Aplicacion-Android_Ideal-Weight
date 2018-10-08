@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.adolfo.idealweight.SplashActivity">
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/imagenb"
+        android:id="@+id/ivSplash"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/sText"
+        android:layout_marginTop="71dp" />
+
+    <TextView
+        android:id="@+id/sText"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Ideal Weight"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="#252525"
+        android:layout_below="@+id/ivSplash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>
